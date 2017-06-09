@@ -1,0 +1,29 @@
+
+<div class="container">
+<table class="table">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Fall</th>
+            <th>Spring</th>
+            <th>Summer</th>
+            <th>Winter</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let sale of sales">
+            <td>{{sale.num}}</td>
+            <td>{{sale.name}}</td>
+            <td>{{sale.category}}</td>
+            <td>{{sale.fall}}</td>
+            <td>{{sale.spring}}</td>
+            <td>{{sale.summer}}</td>
+            <td>{{sale.winter}}</td>
+        </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
+</div>
